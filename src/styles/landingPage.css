@@ -1,0 +1,173 @@
+@font-face {
+  font-family: 'RoadRage';
+  src: url(../styles/font/road_rage/Road_Rage.otf);
+}
+
+@font-face{
+  font-family: 'BlackAdder';
+  src:url(../styles/font/black_adder/BITCBLKAD.ttf);
+}
+
+@font-face {
+  font-family: 'Grunge';
+  src: url(../styles/font/grunge_4/Grunge.ttf);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.muddleFoot {
+  height: auto;
+}
+
+
+.Image {
+  width: 100%;
+  height: 500px;
+}
+
+.footerMuddlefoot img{
+  margin-top: -20px;
+  margin-bottom: -40px;
+
+}
+
+/* BAGIAN NAVIGASI */
+.bagianNav{
+  background-color: black;
+  font-family: "BlackAdder";
+  font-size: 25px;
+  margin-top: -50px;
+  margin-bottom: -50px;
+}
+
+/* BAGIAN PAGE */
+.bagianPage {
+
+}
+
+
+/* BAGIAN INTRO */
+.bagianIntro {
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+.judulPage {
+  font-family: "BlackAdder";
+  font-size: 40px;
+}
+
+.introPage {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+/* BAGIAN PROFIL */
+.bagianProfil {
+  background-color: black;
+  padding-top: 20px;
+  height: 350px;
+  
+}
+
+.gambar p{
+  text-align: center;
+  font-family: "BlackAdder";
+  font-size: 30px;
+  color: white;
+  padding-top: 20px;
+}
+
+
+.gambar img{
+  width: 200px;
+  height: 250px;
+}
+
+/* BAGIAN MUSIC */
+.bagianMusic {
+  font-family: "BlackAdder";
+  color: white;
+  text-align: center;
+  background-color:black;
+  /* background-position: center; 
+  background-repeat: no-repeat;
+  background-size:  1000px 600px;  */
+  /* padding-top: 30px; */
+  /* height: 650px;  */
+}
+
+.judulMusic {
+  margin-top: 50px !important;
+  margin-bottom: -20px;
+}
+
+.imageMusic img{
+  width: 80%;
+  height: 80%;
+  padding-top: 10px;
+  /* display: block; */
+  margin-left: auto;
+  margin-right: auto; 
+  
+}
+
+.videoMusic {
+  margin-top: -120px;
+}
+
+
+.bagianFooter {
+  background-color: black;
+  padding-top: 50px;
+  text-align: center !important;
+}
+
+.isiFooter {
+  font-family: "BlackAdder";
+  font-size: 25px;
+  justify-content: center;
+}
+
+.footerMedsos {
+  justify-content: center;
+}
+
+.medsos{
+  background-color: #B2B2B2;
+  margin: 10px;
+  width: 60px;
+  height: 60px;
+  border-radius: 30%;
+  overflow: hidden;
+  position: relative;
+  color: white !important;
+  transition: 0.2s linear;
+}
+
+.medsos svg{
+  transform: translateY(50%);
+  font-size: 20px;
+  line-height: 90px;
+}
+
+.medsos:hover svg{
+  transform: scale(1.3);
+  color:white;
+}
+
+.medsos::before {
+  content: "";
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  left: -110px;
+  top:90%;
+  transform: rotate(45deg);
+  background:grey;
+}
+
