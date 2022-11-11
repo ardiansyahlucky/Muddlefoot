@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/Muddlefoot/static/css/main.0500eaba.css",
+    "main.js": "/Muddlefoot/static/js/main.50e67403.js",
+    "static/js/787.4529d363.chunk.js": "/Muddlefoot/static/js/787.4529d363.chunk.js",
+    "static/media/anomic copy.JPG": "/Muddlefoot/static/media/anomic copy.2de14633a4084fc04a1a.JPG",
+    "static/media/jikun.jpeg": "/Muddlefoot/static/media/jikun.d90bd071acd4594dffa3.jpeg",
+    "static/media/Road_Rage.otf": "/Muddlefoot/static/media/Road_Rage.03e8327bbbb7b1abbae9.otf",
+    "static/media/beges.jpeg": "/Muddlefoot/static/media/beges.cedc2867e4ce091070ca.jpeg",
+    "static/media/logo4.png": "/Muddlefoot/static/media/logo4.bbd5da6123bceb33eaea.png",
+    "static/media/raul.jpeg": "/Muddlefoot/static/media/raul.e4c451fe7c16cc7b9e52.jpeg",
+    "static/media/BITCBLKAD.ttf": "/Muddlefoot/static/media/BITCBLKAD.75a93395177b1b57c7c6.ttf",
+    "static/media/alza.jpeg": "/Muddlefoot/static/media/alza.6a255e79ff73431db082.jpeg",
+    "static/media/baju2.jpeg": "/Muddlefoot/static/media/baju2.fcdda54ec6ae7e02c4e6.jpeg",
+    "static/media/tshirt 1.jpeg": "/Muddlefoot/static/media/tshirt 1.08cf2c9a57582222e45e.jpeg",
+    "static/media/hoodie 2.jpeg": "/Muddlefoot/static/media/hoodie 2.b97ff0c7a3a3c2eda8e5.jpeg",
+    "static/media/hoodie 3.jpeg": "/Muddlefoot/static/media/hoodie 3.f07d160e93091bb3a1b6.jpeg",
+    "static/media/hoodie 1.jpeg": "/Muddlefoot/static/media/hoodie 1.83a736120836d91de4db.jpeg",
+    "static/media/4.jpeg": "/Muddlefoot/static/media/4.823881ebb7a08bb915ed.jpeg",
+    "static/media/cap.jpeg": "/Muddlefoot/static/media/cap.123208c1b667af908d2d.jpeg",
+    "static/media/Grunge.ttf": "/Muddlefoot/static/media/Grunge.78ac1af50e2e8d74377a.ttf",
+    "static/media/yoni.jpeg": "/Muddlefoot/static/media/yoni.66a2c9151b5cf62d97a7.jpeg",
+    "index.html": "/Muddlefoot/index.html",
+    "main.0500eaba.css.map": "/Muddlefoot/static/css/main.0500eaba.css.map",
+    "main.50e67403.js.map": "/Muddlefoot/static/js/main.50e67403.js.map",
+    "787.4529d363.chunk.js.map": "/Muddlefoot/static/js/787.4529d363.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0500eaba.css",
+    "static/js/main.50e67403.js"
+  ]
+}
