@@ -31,15 +31,18 @@ function App() {
         <div className="bagianMusic">
           <Music />
         </div>
+        <div className="bagianMerch">
+          <Merch />
+        </div>
         <div className="bagianFooter">
           <Footer />
-        </div>
+        </div>  
       </div>
 
-      <Fragment>
+      {/* <Fragment>
         <Route path="/merch" exact component={Merch} />
-      </Fragment>
-      
+      </Fragment> */}
+
     </BrowserRouter>
   );
 }

@@ -1,8 +1,8 @@
 {
+  "homepage": "https://ardiansyahlucky.github.io/Muddlefoot",
   "name": "muddlefoot",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://ardiansyahlucky.github.io/Muddlefoot",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.2.0",
     "@fortawesome/free-brands-svg-icons": "^6.2.0",

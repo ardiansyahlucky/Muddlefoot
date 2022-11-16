@@ -121,6 +121,23 @@ body {
 }
 
 
+/* BAGIAN MERCH */
+.bagianMerch {
+  background-color: black;
+  padding-top: 50px;
+}
+
+.isianMerch {
+  padding-top: 10px;
+}
+
+.bandMerch {
+  padding-top: 30px;
+}
+
+
+
+/* BAGIAN FOOTER */
 .bagianFooter {
   background-color: black;
   padding-top: 50px;
