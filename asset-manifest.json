@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Muddlefoot/static/css/main.0500eaba.css",
-    "main.js": "/Muddlefoot/static/js/main.50e67403.js",
+    "main.css": "/Muddlefoot/static/css/main.50e6a01c.css",
+    "main.js": "/Muddlefoot/static/js/main.98e26647.js",
     "static/js/787.4529d363.chunk.js": "/Muddlefoot/static/js/787.4529d363.chunk.js",
     "static/media/anomic copy.JPG": "/Muddlefoot/static/media/anomic copy.2de14633a4084fc04a1a.JPG",
     "static/media/jikun.jpeg": "/Muddlefoot/static/media/jikun.d90bd071acd4594dffa3.jpeg",
@@ -21,12 +21,12 @@
     "static/media/Grunge.ttf": "/Muddlefoot/static/media/Grunge.78ac1af50e2e8d74377a.ttf",
     "static/media/yoni.jpeg": "/Muddlefoot/static/media/yoni.66a2c9151b5cf62d97a7.jpeg",
     "index.html": "/Muddlefoot/index.html",
-    "main.0500eaba.css.map": "/Muddlefoot/static/css/main.0500eaba.css.map",
-    "main.50e67403.js.map": "/Muddlefoot/static/js/main.50e67403.js.map",
+    "main.50e6a01c.css.map": "/Muddlefoot/static/css/main.50e6a01c.css.map",
+    "main.98e26647.js.map": "/Muddlefoot/static/js/main.98e26647.js.map",
     "787.4529d363.chunk.js.map": "/Muddlefoot/static/js/787.4529d363.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0500eaba.css",
-    "static/js/main.50e67403.js"
+    "static/css/main.50e6a01c.css",
+    "static/js/main.98e26647.js"
   ]
 }
