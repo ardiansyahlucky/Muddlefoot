@@ -59,6 +59,7 @@ body {
 .judulPage {
   font-family: "BlackAdder";
   font-size: 40px;
+  font-weight: bold;
 }
 
 .introPage {
@@ -106,6 +107,10 @@ body {
   margin-bottom: -20px;
 }
 
+.judulMusic h2{
+  font-weight: bold;
+}
+
 .imageMusic img{
   width: 80%;
   height: 80%;
@@ -124,7 +129,14 @@ body {
 /* BAGIAN MERCH */
 .bagianMerch {
   background-color: black;
-  padding-top: 50px;
+  padding-top: 60px;
+}
+
+
+.bagianMerch h1 {
+  font-family: 'BlackAdder';
+  text-align: center;
+  font-weight: bold;
 }
 
 .isianMerch {
@@ -133,7 +145,138 @@ body {
 
 .bandMerch {
   padding-top: 30px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: justify;
 }
+
+.card-title {
+  text-align: center;
+  font-weight: bold !important;
+} 
+
+
+/* BAGIAN KONTAK */
+.bagianContact {
+  /* background: black; */
+  /* padding-top: 70px;
+  padding-bottom: 50px; */
+  box-sizing: border-box;
+  margin: 0;
+  line-height: 1.5;
+  display: flex;
+  height: 125vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+}
+
+h2 {
+  text-align: center;
+  font-family: "BlackAdder";
+  font-weight: bold !important;
+}
+
+.wrapper {
+  background:black;
+  color: white;
+  width: 90%;
+  padding: 2rem;
+  /* box-shadow: black; */
+}
+
+form,input,textarea,button {
+  font-family: Georgia, 'Times New Roman', Times, serif !important;
+  font-size: initial !important;
+  font-weight: bold !important;
+}
+
+.form-group label{
+  display: block;
+  margin: 2rem 0 0.5rem 0;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 0.3rem 0.8rem;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  outline: 0;
+  transition: border 0.15s;
+}
+
+.form-group textarea {
+  width: 100%;
+  padding: 1rem 0.8rem;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  outline: 0;
+  transition: border 0.15s;
+}
+
+.form-group input [type="text"],
+.form-group input [type="email"],{
+  height: 4.6rem;
+}
+
+
+.form-group textarea{
+  resize: vertical;
+}
+
+
+.submit {
+  background-color:grey;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+  margin-top: 1rem;
+  padding: 1rem 1.5rem;
+  border: none;
+  cursor: pointer;
+  transition: background  0.15s;
+}
+
+.submit:hover {
+  background: white;
+  color: black;
+}  
+
+/* .form-group input [type="text"],
+.form-group input [type="email"],
+.form-group textarea:focus{
+  border: 1px solid ;
+} */
+
+/*RESPONSIVE */
+
+@media screen and ( min-width:576px)  {
+  .wrapper{
+    width: 70%;
+  }
+}
+
+@media screen and ( min-width:786px)  {
+  .wrapper{
+    width: 55%;
+  }
+}
+
+@media screen and ( min-width:992px)  {
+  .wrapper{
+    width: 45%;
+  }
+}
+
+@media screen and ( min-width:1200px)  {
+  .wrapper{
+    width: 35%;
+  }
+}
+
+
+
+
+
 
 
 

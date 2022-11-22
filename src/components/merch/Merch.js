@@ -5,6 +5,7 @@ import hoodie2 from "../../assets/imageslogo/store/hoodie 2.jpeg";
 import hoodie3 from "../../assets/imageslogo/store/hoodie 3.jpeg";
 import tshirt1 from "../../assets/imageslogo/store/tshirt 1.jpeg";
 import tshirt2 from "../../assets/imageslogo/store/baju2.jpeg";
+import Index from "../../layout/Index"
 
 const Merch = () => {
   const listMerchants = [
@@ -48,26 +49,26 @@ const Merch = () => {
   console.log(listMerchants);
 
   return (
-    <div>
-      <Container>
-        <br/>
-        <h1 className="text-light">BAND MERCHENDISE</h1>
-        <Row className="isianMerch">
-          {listMerchants.map((data,x) => (
-            <Col key={x} className="bandMerch">
-              <Card style={{ width: '18rem' }}>
-                <Card.Img variant="top" src={data.image} />
-                <Card.Body>
-                  <Card.Title>{data.name}</Card.Title>
-                  <Card.Text>{data.desc}</Card.Text>
-                </Card.Body>
-              </Card>
-            </Col> 
-          ))}
-        </Row>
-      </Container>
-      <br/>
-    </div>
+      <Index>
+      <div className="bagianMerch">
+        <Container >
+          <h1 className="text-light">BAND MERCHENDISE</h1>
+          <Row className="isianMerch">
+            {listMerchants.map((data, x) => (
+              <Col key={x} className="bandMerch">
+                <Card style={{ width: '18rem' }}>
+                  <Card.Img variant="top" src={data.image} />
+                  <Card.Body>
+                    <Card.Title>{data.name}</Card.Title>
+                    <Card.Text>{data.desc}</Card.Text>
+                  </Card.Body>
+                </Card>
+              </Col>
+            ))}
+          </Row>
+        </Container>
+      </div>
+    </Index>
   );
 };
 

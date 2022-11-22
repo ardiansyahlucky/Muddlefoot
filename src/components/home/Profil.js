@@ -19,11 +19,11 @@ const Profil = () => {
   return (
     <Container className="profil">
       <Row className="gambar">
-        <Col><img src={Image1}/><p>{bandData.vocal}</p></Col>
-        <Col><img src={Image2}/><p>{bandData.guitar}</p></Col>
-        <Col><img src={Image3}/><p>{bandData.guitar}</p></Col>
-        <Col><img src={Image4}/><p>{bandData.bass}</p></Col>
-        <Col><img src={Image5}/><p>{bandData.drum}</p></Col>
+        <Col className="personil"><img src={Image1} alt="" /><p>{bandData.vocal}</p></Col>
+        <Col className="personil"><img src={Image2} alt="" /><p>{bandData.guitar}</p></Col>
+        <Col className="personil"><img src={Image3} alt="" /><p>{bandData.guitar}</p></Col>
+        <Col className="personil"><img src={Image4} alt="" /><p>{bandData.bass}</p></Col>
+        <Col className="personil"><img src={Image5} alt="" /><p>{bandData.drum}</p></Col>
       </Row>
     </Container>
   );

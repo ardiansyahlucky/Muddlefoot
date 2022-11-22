@@ -1,7 +1,8 @@
 import { Navbar, Container, Nav } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {faFacebook, faInstagram, faTwitter, faYoutube} from '@fortawesome/free-brands-svg-icons';
-import LogoNav from "../../assets/imageslogo/logo/logo4.png";
+import LogoNav from "../assets/imageslogo/logo/logo4.png";
+
 
 const Footer = () => {
   return (
@@ -15,14 +16,12 @@ const Footer = () => {
               alt="React Bootstrap logo"
             /></Navbar.Brand>
           <Nav className="isiFooter">
-            <Nav.Link href="#home" style={{ color: "white" }}>Home</Nav.Link>
-            <Nav.Link href="#pricing" style={{ color: "white" }}>Music</Nav.Link>
-            <Nav.Link href="#pricing" style={{ color: "white" }}>Profil</Nav.Link>
-            <Nav.Link href="#pricing" style={{ color: "white" }}>Contact</Nav.Link>
-            <Nav.Link href="#pricing" style={{ color: "white" }}>Merch</Nav.Link>
+            <Nav.Link href="/home" style={{ color: "white" }}>Home</Nav.Link>
+            <Nav.Link href="/merch" style={{ color: "white" }}>Merch</Nav.Link>
+            <Nav.Link href="/contact" style={{ color: "white" }}>Contact</Nav.Link>
           </Nav>
           <Nav className="footerMedsos">
-            <Nav.Link className="medsos" href="#home" style={{ color: "white" }}><FontAwesomeIcon icon={faInstagram}/></Nav.Link>
+            <Nav.Link className="medsos" href="https://www.instagram.com/muddlefoot/" target="blank" style={{ color: "white" }}><FontAwesomeIcon icon={faInstagram}/></Nav.Link>
             <Nav.Link className="medsos" href="#features" style={{ color: "white" }}><FontAwesomeIcon icon={faFacebook}/></Nav.Link>
             <Nav.Link className="medsos" href="#pricing" style={{ color: "white" }}><FontAwesomeIcon icon={faTwitter}/></Nav.Link>  
             <Nav.Link className="medsos" href="#features" style={{ color: "white" }}><FontAwesomeIcon icon={faYoutube}/></Nav.Link>     
